@@ -11,28 +11,30 @@
   border-color: black ;
   width: 35%;
   height: 35%;
-  background-color: wheat;
+  background-color:#E8E8FA;
 }
 .head{
   color:darkcyan;
-  
+  border-bottom: ridge;
+  display: flex;
+  flex-direction: column;
 }
 .sub{
   color: cadetblue;
+  border-bottom: ridge;
+
 }
 
-.button-container {
-  gap: 20px;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  width: 164px;
-  /* height :'50%'; */ 
+.plus-button, .minus-button{
+  border-bottom: ridge;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  cursor: pointer;
+  font-size: 30px;
 }
 
-.plus-button, .minus-button {
-  padding: 15px;
-  border-style: ridge;
-  background-color:darkcyan;
-  border-end-end-radius: 3%;
+.plus-five-button {
+  padding-top: 20px;
+  cursor: pointer;
+  font-size: 20px;
 }
