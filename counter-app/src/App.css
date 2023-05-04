@@ -1,0 +1,38 @@
+.app{
+  text-align: center;
+  width: 100%;
+  height: 95vh;
+  display: flex;
+}
+
+.counter-container {
+  margin: auto;
+  border-style: ridge;
+  border-color: black ;
+  width: 35%;
+  height: 35%;
+  background-color: wheat;
+}
+.head{
+  color:darkcyan;
+  
+}
+.sub{
+  color: cadetblue;
+}
+
+.button-container {
+  gap: 20px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 164px;
+  /* height :'50%'; */ 
+}
+
+.plus-button, .minus-button {
+  padding: 15px;
+  border-style: ridge;
+  background-color:darkcyan;
+  border-end-end-radius: 3%;
+}
